@@ -1,0 +1,12 @@
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DesignerFromDB\bin\Debug\EF_DesignerFromDB.exe.config
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DesignerFromDB\bin\Debug\EF_DesignerFromDB.exe
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DesignerFromDB\bin\Debug\EF_DesignerFromDB.pdb
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DesignerFromDB\bin\Debug\EntityFramework.dll
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DesignerFromDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DesignerFromDB\bin\Debug\EntityFramework.xml
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DesignerFromDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DesignerFromDB\obj\Debug\EF_DesignerFromDB.csprojAssemblyReference.cache
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DesignerFromDB\obj\Debug\EF_DesignerFromDB.csproj.CoreCompileInputs.cache
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DesignerFromDB\obj\Debug\EF_DesignerFromDB.csproj.CopyComplete
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DesignerFromDB\obj\Debug\EF_DesignerFromDB.exe
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DesignerFromDB\obj\Debug\EF_DesignerFromDB.pdb
