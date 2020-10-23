@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataContext.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DataContextStoreContainer">
+    <EntitySet Name="Employees" EntityType="DataContext.Store.Employees" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Departments" EntityType="DataContext.Store.Departments" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="EmployeeDepartment" Association="DataContext.Store.EmployeeDepartment">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Department" EntitySet="Departments" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FName" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="LName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Age" Type="int" Nullable="true" />
+    <Property Name="Salary" Type="decimal" Nullable="true" />
+    <Property Name="DepartmentDeptId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Departments">
+    <Key>
+      <PropertyRef Name="DeptId" />
+    </Key>
+    <Property Name="DeptId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DeptName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="EmployeeDepartment">
+    <End Role="Employee" Type="DataContext.Store.Employees" Multiplicity="*" />
+    <End Role="Department" Type="DataContext.Store.Departments" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DeptId" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="DepartmentDeptId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="DataContext" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="DataContextContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Employees" EntityType="DataContext.Employee" />
+    <EntitySet Name="Departments" EntityType="DataContext.Department" />
+    <AssociationSet Name="EmployeeDepartment" Association="DataContext.EmployeeDepartment">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Department" EntitySet="Departments" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FName" Type="String" Nullable="true" />
+    <Property Name="LName" Type="String" Nullable="false" />
+    <Property Name="Age" Type="Int32" Nullable="true" />
+    <Property Name="Salary" Type="Decimal" Nullable="true" />
+    <NavigationProperty Name="Department" Relationship="DataContext.EmployeeDepartment" FromRole="Employee" ToRole="Department" />
+    <Property Name="DepartmentDeptId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="DeptId" />
+    </Key>
+    <Property Name="DeptId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DeptName" Type="String" Nullable="false" />
+    <NavigationProperty Name="Employees" Relationship="DataContext.EmployeeDepartment" FromRole="Department" ToRole="Employee" />
+  </EntityType>
+  <Association Name="EmployeeDepartment">
+    <End Type="DataContext.Employee" Role="Employee" Multiplicity="*" />
+    <End Type="DataContext.Department" Role="Department" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DeptId" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="DepartmentDeptId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

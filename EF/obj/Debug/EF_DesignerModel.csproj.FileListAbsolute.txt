@@ -1,0 +1,12 @@
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF\bin\Debug\EF.exe.config
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF\bin\Debug\EF.exe
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF\bin\Debug\EF.pdb
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF\bin\Debug\EntityFramework.dll
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF\bin\Debug\EntityFramework.xml
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF\obj\Debug\EF_DesignerModel.csproj.CoreCompileInputs.cache
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF\obj\Debug\EF_DesignerModel.csproj.CopyComplete
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF\obj\Debug\EF.exe
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF\obj\Debug\EF.pdb
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF\obj\Debug\EF_DesignerModel.csprojAssemblyReference.cache
