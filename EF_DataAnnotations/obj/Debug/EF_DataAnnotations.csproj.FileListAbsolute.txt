@@ -1,0 +1,15 @@
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DataAnnotations\bin\Debug\EF_DataAnnotations.exe.config
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DataAnnotations\bin\Debug\EF_DataAnnotations.exe
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DataAnnotations\bin\Debug\EF_DataAnnotations.pdb
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DataAnnotations\bin\Debug\EntityFramework.dll
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DataAnnotations\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DataAnnotations\bin\Debug\EntityFramework.xml
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DataAnnotations\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DataAnnotations\obj\Debug\EF_DataAnnotations.csprojAssemblyReference.cache
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DataAnnotations\obj\Debug\EF_DataAnnotations.csproj.CoreCompileInputs.cache
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DataAnnotations\obj\Debug\EF_DataAnnotations.csproj.CopyComplete
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DataAnnotations\obj\Debug\EF_DataAnnotations.exe
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DataAnnotations\obj\Debug\EF_DataAnnotations.pdb
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DataAnnotations\obj\Debug\EF_DataAnnotations.Migrations.v01.resources
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DataAnnotations\obj\Debug\EF_DataAnnotations.csproj.GenerateResource.cache
+C:\Users\mmr16\source\repos\MMR16\Entity_Framework\EF_DataAnnotations\obj\Debug\EF_DataAnnotations.Migrations.v02.resources
